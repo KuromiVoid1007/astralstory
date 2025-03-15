@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "astral_story_group",
+  "ingredient":
+    {
+      "item": "astralstory:stone_up_1"
+    },
+
+  "result": "astralstory:mraks_ingot"
+
+}

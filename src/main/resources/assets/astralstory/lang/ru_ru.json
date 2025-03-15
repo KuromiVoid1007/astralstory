@@ -1,0 +1,23 @@
+{
+  "item.astralstory.stone_up_1": "Камень уселения [1]",
+  "item.astralstory.stone_up_2": "Камень уселения [2]",
+  "item.astralstory.stone_up_3": "Камень уселения [3]",
+  "item.astralstory.stone_up_4": "Камень уселения [4]",
+  "item.astralstory.dust_cavansit": "Каванистовая пыль",
+  "item.astralstory.dust_rubellite": "Рубeллитовая пыль",
+  "item.astralstory.cavansit": "Каванит",
+  "item.astralstory.rubellite": "Рубeллит",
+  "item.astralstory.the_mortar": "Ступка",
+  "item.astralstory.mraks_ingot": "Слиток мрака",
+
+  "item.astralstory.bloody_crystal": "Кровавый кристал",
+  "item.astralstory.holy_crystal": "Святой кристал",
+  "item.astralstory.magical_crystal": "Магичиский кристал",
+  "item.astralstory.poisonous_crystal": "Отравленый кристал",
+
+  "block.astralstory.darkness_block": "Мрачный блок",
+  "block.astralstory.darkness_polished_block": "Мрачный полированный блок",
+  "block.astralstory.darkness_block_deepslate": "Глубинный мрачный блок",
+
+  "itemgroup.astralstory.astral_story_items": "Астральная история"
+}

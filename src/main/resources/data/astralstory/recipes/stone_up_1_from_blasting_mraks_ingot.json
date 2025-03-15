@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "group": "astral_story_group",
+  "ingredient":
+    {
+      "item": "astralstory:stone_up_1"
+    },
+  "result": "astralstory:mraks_ingot"
+
+}

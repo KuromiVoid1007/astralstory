@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "astralstory:darkness_polished_block"
+    }
+  ],
+  "result": {
+    "item": "astralstory:mraks_ingot",
+    "count": 4
+  }
+}
