@@ -2,16 +2,48 @@ package com.example.item;
 
 import com.example.AstralStory;
 import com.example.item.custom.MagicWand;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ModItems {
-    public static final Item STONE_UP_1 = registrItem("stone_up_1", new Item(new Item.Settings()));
-    public static final Item STONE_UP_2 = registrItem("stone_up_2", new Item(new Item.Settings()));
-    public static final Item STONE_UP_3 = registrItem("stone_up_3", new Item(new Item.Settings()));
-    public static final Item STONE_UP_4 = registrItem("stone_up_4", new Item(new Item.Settings()));
+    public static final Item STONE_UP_1 = registrItem("stone_up_1", new Item(new Item.Settings()){
+        @Override
+        public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+            tooltip.add(Text.translatable("tooltip.astralstory.stone_up_1"));
+            super.appendTooltip(stack, world, tooltip, context);
+        }
+    });
+    public static final Item STONE_UP_2 = registrItem("stone_up_2", new Item(new Item.Settings()){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.astralstory.stone_up_2"));
+                    super.appendTooltip(stack, world, tooltip, context);
+                }
+            }
+    );
+    public static final Item STONE_UP_3 = registrItem("stone_up_3", new Item(new Item.Settings()){
+        @Override
+        public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+            tooltip.add(Text.translatable("tooltip.astralstory.stone_up_3"));
+            super.appendTooltip(stack, world, tooltip, context);
+        }
+    });
+    public static final Item STONE_UP_4 = registrItem("stone_up_4", new Item(new Item.Settings()){
+        @Override
+        public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+            tooltip.add(Text.translatable("tooltip.astralstory.stone_up_4"));
+            super.appendTooltip(stack, world, tooltip, context);
+        }
+    });
 
     public static final Item CAVANSITE = registrItem("cavansit", new Item(new Item.Settings()));
     public static final Item RUBELLITE = registrItem("rubellite", new Item(new Item.Settings()));

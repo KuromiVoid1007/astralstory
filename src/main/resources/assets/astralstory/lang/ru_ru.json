@@ -22,5 +22,14 @@
   "block.astralstory.darkness_block_deepslate": "Глубинный мрачный блок",
   "block.astralstory.reversible_table": "Реверсивный стол",
 
-  "itemgroup.astralstory.astral_story_items": "Астральная история"
+  "itemgroup.astralstory.astral_story_items": "Астральная история",
+
+
+
+  "tooltip.astralstory.stone_up_1": "Улучшает оружие до §e+2§r",
+  "tooltip.astralstory.stone_up_2": "Улучшает оружие до §e+4§r",
+  "tooltip.astralstory.stone_up_3": "Улучшает оружие до §e+6§r",
+  "tooltip.astralstory.stone_up_4": "Улучшает оружие до §e+8§r",
+  "tooltip.astralstory.magic_wand.tooltip.shift_down": "§eПкм по вестаку превращяет его в реверсивный стол§r",
+  "tooltip.astralstory.magic_wand.tooltip": "Узнать своства §eSHIFT§r"
 }

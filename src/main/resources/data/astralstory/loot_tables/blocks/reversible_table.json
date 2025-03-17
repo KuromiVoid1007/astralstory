@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "astralstory:reversible_table"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "requires_tool": false,
+  "hardness": 1.0,
+  "resistance": 1.0
+}
