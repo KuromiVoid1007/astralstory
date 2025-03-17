@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "astralstory:block/reversible_table"
+    }
+  }
+}

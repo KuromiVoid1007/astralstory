@@ -10,6 +10,8 @@
   "item.astralstory.the_mortar": "Ступка",
   "item.astralstory.mraks_ingot": "Слиток мрака",
 
+  "item.astralstory.magic_wand": "Магический посох",
+
   "item.astralstory.bloody_crystal": "Кровавый кристал",
   "item.astralstory.holy_crystal": "Святой кристал",
   "item.astralstory.magical_crystal": "Магичиский кристал",
@@ -18,6 +20,7 @@
   "block.astralstory.darkness_block": "Мрачный блок",
   "block.astralstory.darkness_polished_block": "Мрачный полированный блок",
   "block.astralstory.darkness_block_deepslate": "Глубинный мрачный блок",
+  "block.astralstory.reversible_table": "Реверсивный стол",
 
   "itemgroup.astralstory.astral_story_items": "Астральная история"
 }

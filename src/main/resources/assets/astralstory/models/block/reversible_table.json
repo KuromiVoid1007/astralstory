@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "astralstory:block/reversible_table_top",
+    "bottom": "astralstory:block/reversible_table_top",
+    "side": "astralstory:block/reversible_table_side"
+  }
+}

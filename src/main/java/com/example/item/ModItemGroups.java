@@ -27,6 +27,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBELLITE);
                         entries.add(ModItems.THE_MORTAR);
 
+                        entries.add(ModItems.MAGIC_WAND);
+
                         entries.add(ModItems.HOLY_CRYSTAL);
                         entries.add(ModItems.BLOODY_CRYSTAL);
                         entries.add(ModItems.MAGICAL_CRYSTAL);
@@ -35,6 +37,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DARKNESS_BLOCK);
                         entries.add(ModBlocks.DARKNESS_POLISHED_BLOCK);
                         entries.add(ModBlocks.DARKNESS_BLOCK_DEEPSLATE);
+                        entries.add(ModBlocks.REVERSIBLE_TABLE);
 
                     })
                     .build());

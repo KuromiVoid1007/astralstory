@@ -1,6 +1,7 @@
 package com.example.block;
 
 import com.example.AstralStory;
+import com.example.block.custom.ReversibleTable;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -26,7 +27,7 @@ public class ModBlocks {
     public static final Block DARKNESS_BLOCK_DEEPSLATE = registerBlock("darkness_block_deepslate", new ExperienceDroppingBlock(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
             UniformIntProvider.create(3, 6)));
 
-
+    public static final Block REVERSIBLE_TABLE = registerBlock("reversible_table", new ReversibleTable(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

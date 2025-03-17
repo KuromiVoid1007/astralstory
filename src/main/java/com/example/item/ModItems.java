@@ -1,6 +1,7 @@
 package com.example.item;
 
 import com.example.AstralStory;
+import com.example.item.custom.MagicWand;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -30,6 +31,8 @@ public class ModItems {
     public static final Item POISONOUS_CRYSTAL = registrItem("poisonous_crystal", new Item(new Item.Settings()));
     public static final Item MAGICAL_CRYSTAL = registrItem("magical_crystal", new Item(new Item.Settings()));
 
+
+    public static final Item MAGIC_WAND = registrItem("magic_wand", new MagicWand( new Item.Settings().maxDamage(32)));
 
     private static Item registrItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AstralStory.MOD_ID, name), item);
